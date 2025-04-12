@@ -1,6 +1,6 @@
 # Portfolio of Saurav Rai
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+<img src ="https://github.com/sauravrai1998/Porfolio-v2/blob/main/Homepage.png" />
  
 This project was created with CRA (Create React App)
 

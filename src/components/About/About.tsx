@@ -1,14 +1,15 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+import SauravRai from "../../assets/Saurav_circle.jpg";
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
+import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import flutterIcon from "../../assets/flutter-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
@@ -23,31 +24,33 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Saurav, a Mobile app developer with 4+ years of
+            hands-on experience in retail, finance, inventory/data management
+            app domain. Specialising in React Native and Flutter, I have a knack
+            for crafting pixel-perfect apps that seamlessly blend aesthetics
+            with functionality and I thrive on transforming innovative ideas
+            into captivating digital experiences
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive web applications, fine-tune ML models, and
+            implement robust backend services.
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
-          <div className="education">
-            <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
-          </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
+            <h3>Experience:</h3>
+            <h4>Technology Consultant</h4>
+            <p>Ernst & Young (EY) | June 2022 - Present</p>
+            <p>Gurgaon, India</p>
+            <br></br>
+            <h4>Mobile Application Developer</h4>
+            <p>Webknot Technologies Pvt. Ltd | April 2021 - June 2022</p>
             <p>Bangalore, India</p>
           </div>
         </ScrollAnimation>
@@ -56,8 +59,23 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
+        <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={reactIcon} alt="React" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={flutterIcon} alt="Flutter" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={nodeIcon} alt="Flutter" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={python} alt="python" />
             </ScrollAnimation>
           </div>
@@ -71,11 +89,7 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
-          </div>
+          
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
@@ -107,7 +121,7 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
@@ -115,9 +129,9 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={SauravRai} alt="Saurav Rai" />
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }
